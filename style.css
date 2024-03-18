@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: darkolivegreen;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    
+}
+
+.navbar a:hover {
+    background-color: brown;
+}
+
+.navbar li {
+display: inline-block;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#background_img {
+    background-image: url(Images/img_1.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    position: relative;
+}
+
+#background_text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 50px;
+    background-color: darkolivegreen;
+  
+
+}
+
+
